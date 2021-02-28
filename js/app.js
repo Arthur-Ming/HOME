@@ -99,8 +99,8 @@ window.addEventListener("resize", () => {
    if (!menuBody.classList.contains("_active")) return;
    if (document.documentElement.clientWidth > br) {
       body_lock_remove(0);
-      //menuBody.classList.remove("_active");
-      //iconMenu.classList.remove("_active");
+      menuBody.classList.remove("_active");
+      iconMenu.classList.remove("_active");
    }
    else {
       body_lock_add(0);
